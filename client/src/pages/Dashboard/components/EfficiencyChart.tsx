@@ -1,14 +1,12 @@
 import { useMemo } from "react";
 import {
-  Bar,
-  BarChart,
   CartesianGrid,
+  Line,
+  LineChart,
   ResponsiveContainer,
+  Tooltip,
   XAxis,
   YAxis,
-  Tooltip,
-  LineChart,
-  Line,
 } from "recharts";
 import { IMetric } from "../types";
 

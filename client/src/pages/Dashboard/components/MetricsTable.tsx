@@ -19,7 +19,7 @@ export default function MetricsTable({ data }: Props) {
       description: item.description,
       category: item.category,
     }));
-  }, [data]);
+  }, [data, intl]);
 
   return (
     <MaterialTable

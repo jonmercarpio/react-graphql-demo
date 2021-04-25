@@ -9,13 +9,11 @@ import {
 import React, { Fragment } from "react";
 import AppBar from "../../components/AppBar";
 import Loader from "../../components/Loader";
-import useMetrics from "./useMetrics";
-
 import DowntimeChart from "./components/DowntimeChart";
 import EfficiencyChart from "./components/EfficiencyChart";
-import ShiftChart from "./components/ShiftChart";
-import MaterialTable from "material-table";
 import MetricsTable from "./components/MetricsTable";
+import ShiftChart from "./components/ShiftChart";
+import useMetrics from "./useMetrics";
 
 export default function Dashboard() {
   const request = useMetrics();

@@ -1,5 +1,7 @@
 # Demo App
 
+First run `yarn install` to install all packages
+
 ## Available Scripts
 
 ### `yarn client`
